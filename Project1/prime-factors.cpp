@@ -3,9 +3,9 @@ using std::vector;
 
 class PrimeFactors {
 public:
-	std::vector<int> of(int n) {
+	std::vector<int> of(int number) {
 		vector<int> result = {};
-		if (n == 2) {
+		if (number == 2) {
 			result.push_back(2);
 		}
 		return result;
